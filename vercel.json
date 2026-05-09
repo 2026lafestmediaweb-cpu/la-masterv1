@@ -1,13 +1,4 @@
 {
-  "cleanUrls": true,
-  "rewrites": [
-    {
-      "source": "/",
-      "destination": "/waterball/index.html"
-    }
-  ]
-}
-{
   "rewrites": [
     {
       "source": "/",
@@ -18,16 +9,16 @@
       "destination": "/contacts/index.html"
     },
     {
-      "source": "/eventsv1-main",
-      "destination": "/eventsv1-main/index.html"
-    },
-    {
       "source": "/leg",
       "destination": "/leg/index.html"
     },
     {
       "source": "/rules",
       "destination": "/rules/index.html"
+    },
+    {
+      "source": "/eventsv1-main",
+      "destination": "/eventsv1-main/index.html"
     }
   ]
 }
